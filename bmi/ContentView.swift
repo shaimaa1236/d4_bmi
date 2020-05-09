@@ -78,7 +78,7 @@ struct ContentView: View {
     }
     
     func calculateBMI(w: Double, h: Double) -> Double {
-        return w / h * h
+        return w / h*h
     }
     
     func bmiStatusf(bmi: Double) -> String {
